@@ -75,12 +75,3 @@ pip install -r requirements.txt
 cd "Automated Machine Learning Expert System"
 jupyter notebook
 ```
-
----
-
-## 🔗 Related Projects
-
-- [Personalized Clothing Fit Recommendation](https://github.com/keertanakappuram/Personalised-Clothing-And-Fit-Recommendation-System)
-- [Health Monitoring & Anomaly Detection](https://github.com/keertanakappuram/Health-Monitoring-and-Anomaly-Detection-for-Elderly-Patients)
-- [GitHub Profile](https://github.com/keertanakappuram)
-- [LinkedIn](https://linkedin.com/in/keertanakappuram)
