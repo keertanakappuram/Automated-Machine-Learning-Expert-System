@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  data-cleaner:
+    build: ./data-cleaner
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./data-cleaner:/app
+    environment:
+      - FLASK_ENV=development
+
+  model-builder:
+    build: ./model-builder
+    ports:
+      - "5002:5002"
+    volumes:
+      - ./model-builder:/app
+      - ./model-builder/uploads:/app/uploads
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - data-cleaner
+      - model-builder
+    environment:
+      - REACT_APP_DATA_CLEANER_URL=http://localhost:5001
+      - REACT_APP_MODEL_BUILDER_URL=http://localhost:5002
