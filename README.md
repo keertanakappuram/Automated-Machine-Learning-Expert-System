@@ -2,7 +2,7 @@
 
 > A full-stack microservice platform that automates the end-to-end machine learning workflow — from data ingestion and cleaning to model training, evaluation, and result visualization — through a React frontend and Flask-based backend services.
 
-**📄 Published at IEEE COM-IT-CON 2022** — [View Paper](https://ieeexplore.ieee.org/document/9850909)
+**📄 Published at IEEE COM-IT-CON 2022** — [View Paper](https://ieeexplore.ieee.org/document/9850737)
 
 ---
 
