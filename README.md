@@ -1,12 +1,12 @@
-# ⚙️ AMES: Automated Machine Learning Expert System
+# AMES: Automated Machine Learning Expert System
 
 > A full-stack microservice platform that automates the end-to-end machine learning workflow — from data ingestion and cleaning to model training, evaluation, and result visualization — through a React frontend and Flask-based backend services.
 
-**📄 Published at IEEE COM-IT-CON 2022** — [View Paper](https://ieeexplore.ieee.org/document/9850737)
+**Published at IEEE COM-IT-CON 2022** — [View Paper](https://ieeexplore.ieee.org/document/9850737)
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────┐
@@ -28,13 +28,13 @@
 
 ---
 
-## 🎯 Problem
+## Problem
 
 Building a machine learning model for a new dataset requires significant manual effort — data preprocessing, feature engineering, algorithm selection, hyperparameter tuning, and evaluation. AMES automates this entire workflow through a unified web platform, enabling consistent and reproducible model development for both classification and regression tasks.
 
 ---
 
-## ⚙️ What AMES Automates
+## What AMES Automates
 
 | Task | Service | Description |
 |------|---------|-------------|
@@ -46,7 +46,7 @@ Building a machine learning model for a new dataset requires significant manual 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Tools |
 |-------|-------|
@@ -59,7 +59,7 @@ Building a machine learning model for a new dataset requires significant manual 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── frontend/                  # React web application
@@ -83,7 +83,7 @@ Building a machine learning model for a new dataset requires significant manual 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Option 1 — Docker Compose (recommended)
 Spins up all services together with a single command:
